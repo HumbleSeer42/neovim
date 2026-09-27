@@ -1,3 +1,14 @@
+name: test-40843
+
+on:
+  push:
+    branches:
+      - fix-40843
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
 jobs:
   functionaltestonly:
     runs-on: ubuntu-24.04
